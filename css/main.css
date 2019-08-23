@@ -1,0 +1,298 @@
+.contact_title,
+.formation_title,
+.centre--interets_title {
+  text-align: right;
+  margin-right: 35px;
+}
+
+.experience > ul {
+  margin-left: -5px;
+}
+
+.competences_title,
+.experience_title,
+.profil_title {
+  text-align: left;
+  margin-left: 35px;
+}
+
+.contact,
+.formation,
+.experience,
+.centre--interets,
+.competences,
+.profil {
+  margin-bottom: 10vh;
+}
+
+.projects_title {
+  text-align: center;
+}
+
+.projects {
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.profil > p {
+  text-align: left;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.contact > ul {
+  text-align: right;
+  margin-right: 35px;
+}
+
+.formation > ul {
+  text-align: right;
+  margin-right: 35px;
+}
+
+#icon_user,
+#icon_case,
+#icon_bulb {
+  margin-left: 46%;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+}
+
+html {
+  border-right: 8px #1c1f3c solid;
+  border-left: 8px #1c1f3c solid;
+  color: #191970;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+
+.centre--interets > p {
+  text-align: right;
+  margin-right: 35px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  line-height: -10%;
+}
+
+.body__pic {
+  margin: 20px;
+}
+
+.compe_container {
+  margin-left: 35px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #191970;
+}
+
+a:hover {
+  color: red;
+}
+
+.contactme__icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px;
+  margin-bottom: 50px;
+}
+
+h2,
+h1 {
+  color: #1c1f3c;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Quicksand", "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.desktop {
+  display: none;
+}
+
+.competences_title {
+  margin-left: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+.name {
+  font-size: 3.5em;
+}
+
+body {
+  background-color: #fff8dc;
+}
+
+.from-right,
+.from-left {
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.from-right {
+  transform: translate(50px, -30px);
+}
+
+.from-left {
+  transform: translate(-50px, -30px);
+}
+
+@media screen and (min-width: 500px) {
+  .body__pic {
+    display: block;
+    margin: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .competences_title,
+.experience_title,
+.profil_title {
+    text-align: right;
+  }
+
+  .contact_title,
+.formation_title,
+.centre--interets_title {
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  .profil {
+    width: 46%;
+  }
+
+  .profil > p {
+    text-align: right;
+    margin-right: 0px;
+  }
+
+  .contact,
+.formation,
+.experience,
+.centre--interets,
+.competences {
+    width: 50%;
+  }
+
+  .contact > ul {
+    text-align: left;
+  }
+
+  .formation > ul {
+    text-align: left;
+  }
+
+  #icon_user,
+#icon_case,
+#icon_bulb {
+    margin-left: 48%;
+  }
+
+  .experience > ul {
+    text-align: right;
+    margin: 0 auto;
+  }
+
+  .experience {
+    width: 46%;
+  }
+
+  .competences_title {
+    text-align: right;
+    margin-right: 37px;
+  }
+
+  .compe_container {
+    width: 46%;
+  }
+
+  .centre--interets {
+    width: 45%;
+    margin-left: 2px;
+  }
+
+  .centre--interets > p {
+    text-align: left;
+  }
+
+  .centre--interets_title {
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .competences {
+    margin-left: 40%;
+  }
+
+  .projects {
+    margin-bottom: 50px;
+  }
+
+  .contactme__icon {
+    margin-bottom: 40px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  html {
+    border-right: 10px #1c1f3c solid;
+    border-left: 10px #1c1f3c solid;
+  }
+
+  #icon_user,
+#icon_case,
+#icon_bulb {
+    margin-top: 0px;
+  }
+
+  #icon_user {
+    margin-top: 5vh;
+  }
+}
+@media screen and (min-width: 800px) {
+  .body__pic {
+    display: block;
+    margin: auto;
+  }
+
+  .centre--interets {
+    margin-right: 53px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: initial;
+  }
+
+  .competences {
+    margin-left: 350px;
+  }
+
+  html {
+    border-right: 150px #1c1f3c solid;
+    border-left: 150px #1c1f3c solid;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
