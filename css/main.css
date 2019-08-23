@@ -80,7 +80,8 @@ ul {
 }
 
 .body__pic {
-  margin: 20px;
+  display: block;
+  margin: auto;
 }
 
 .compe_container {
