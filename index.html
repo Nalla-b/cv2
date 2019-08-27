@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -14,60 +14,61 @@
     <link rel="stylesheet" href="css/animate.css">
 
     <title>Allan Bocquet</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-    </style>
 </head>
 
 <body>
     <h1 class="name animated fadeInLeft">Allan Bocquet</h1>
     <h2 class="animated fadeInRight">Developpeur web junior</h2>
     <picture>
-        <source class="body__pic--big" srcset="img/moi2.jpg" media="(min-width: 1000px)">
-        <img src="img/moi-mini20.jpg" class="body__pic animated bounceInUp" />
+        <source class="body__pic--big" srcset="img/moi2.jpg" media="(min-width: 1000px)" alt="photo de moi">
+        <img src="img/moi-mini20.jpg" class="body__pic animated bounceInUp" alt="photo de moi"/>
     </picture>
-    <!--- logo profil--><i id="icon_user" class="far fa-user fa-3x"></i>
+    <!--- logo profil--><i id="icon_user" class="far fa-user fa-3x" alt="icone profil"></i>
     <div class="container">
+        <!--SECTION PROFIL-->
         <div class="profil">
             <h2 class="profil_title">Profil</h2>
             <p>Je m'appelle Allan , j'ai 21 ans. <br>Je suis passionné d'informatique et de programmation.</p>
         </div>
+        <!--SECTION CONTACT-->
         <div class="contact">
             <h2 class="contact_title">Contact</h2>
             <ul>
-                <li><a href="https://goo.gl/maps/J4EwzxWTaRk55n4w7" target="_blank">ANTIBES , FRANCE</a></li>
-                <li><a href="tel:+33618564953">06.18.56.49.53</a></li>
-                <li><a href="mailto:allan0698@hotmail.fr" target="_blank">allan0698@hotmail</a></li>
+                <li class="contactme"><a href="https://goo.gl/maps/J4EwzxWTaRk55n4w7" target="_blank">ANTIBES ,
+                        FRANCE</a></li>
+                <li class="contactme"><a href="tel:+33618564953">06.18.56.49.53</a></li>
+                <li class="contactme"><a href="mailto:allan0698@hotmail.fr" target="_blank">allan0698@hotmail</a></li>
             </ul>
         </div>
     </div>
-    <!--logo valise --><i id="icon_case" class="fas fa-suitcase fa-3x"></i>
+    <!--logo valise --><i id="icon_case" class="fas fa-suitcase fa-3x" alt="icone dossier"></i>
     <div class="container second">
+        <!--SECTION EXPERIENCE-->
         <div class="experience">
             <h2 class="experience_title">Expérience</h2>
             <ul>
-                <li><strong>Cariste/Agent de logistique</strong><br>2017-2018<br>Viapost</li><br>
-                <li><strong>Vendangeur</strong><br>2017<br>SCEV Poinsot Père et Fils</li><br>
-                <li><strong>Animateur centre de loisirs</strong><br>2016-2017<br>Ville de Méricourt (62680)</li>
+                <li><span>Cariste/Agent de logistique</span><br>2017-2018<br>Viapost</li>
+                <li><span>Vendangeur</span><br>2017<br>SCEV Poinsot Père et Fils</li>
+                <li><span>Animateur centre de loisirs</span><br>2016-2017<br>Ville de Méricourt (62680)</li>
             </ul>
         </div>
+        <!--SECTION FORMATION-->
         <div class="formation">
             <h2 class="formation_title">Formation</h2>
             <ul>
-                <li><strong>POPSCHOOL</strong><br>2019<br>Titre pro développeur web (bac+2)</li><br>
-                <li><strong>ENJEU</strong><br>2017<br>BAFA</li><br>
-                <li><strong>LYCÉE PABLO PICASSO</strong><br>2016<br>Baccaulaureat sciences technologies<br> du
+                <li><span>POPSCHOOL</span><br>2019<br>Titre pro développeur web (bac+2)</li>
+                <li><span>ENJEU</span><br>2017<br>BAFA</li>
+                <li><span>LYCÉE PABLO PICASSO</span><br>2016<br>Baccaulaureat sciences technologies<br> du
                     management et de la gestion spécialité RH</li>
             </ul>
         </div>
     </div>
-    <!--logo ampoule--><i id="icon_bulb" class="far fa-lightbulb fa-3x"></i>
+    <!--logo ampoule--><i id="icon_bulb" class="far fa-lightbulb fa-3x" alt="icone ampoule"></i>
     <div class="container third">
+        <!--SECTION COMPETENCES-->
         <div class="compe_container">
-            <h2 class="competences_title">Compétences</h2>
             <div class="competences">
+                <h2 class="competences_title">Compétences</h2>
                 <div class="mobile">
                     <i class="fab fa-html5 fa-3x"></i>
                     <i class="fab fa-css3-alt fa-3x"></i>
@@ -84,36 +85,54 @@
                 </div>
                 <div class="desktop">
                     <div class="row">
-                        <i class="fab fa-html5 fa-3x col-2"></i>
-                        <i class="fab fa-css3-alt fa-3x col-2"></i>
-                        <i class="fab fa-js-square fa-3x col-2"></i>
-                        <i class="fab fa-github fa-3x col-2"></i>
-                        <i class="fab fa-bootstrap fa-3x col-2"></i>
-                        <i class="fab fa-wordpress fa-3x col-2"></i>
+                        <i class="fab fa-html5 fa-5x col-2"></i>
+                        <i class="fab fa-css3-alt fa-5x col-2"></i>
+                        <i class="fab fa-js-square fa-5x col-2"></i>
+                        <i class="fab fa-github fa-5x col-2"></i>
+                        <i class="fab fa-bootstrap fa-5x col-2"></i>
+                        <i class="fab fa-wordpress fa-5x col-2"></i>
                     </div>
                     <div class="row">
-                        <i class="fab fa-sass fa-3x col-2"></i>
-                        <i class="fab fa-php fa-3x col-2"></i>
-                        <i class="fab fa-symfony fa-3x col-2"></i>
-                        <i class="fab fa-vuejs fa-3x col-2"></i>
-                        <i class="fas fa-terminal fa-3x col-2"></i>
-                        <i class="fas fa-database fa-3x col-2"></i>
+                        <i class="fab fa-sass fa-5x col-2"></i>
+                        <i class="fab fa-php fa-5x col-2"></i>
+                        <i class="fab fa-symfony fa-5x col-2"></i>
+                        <i class="fab fa-vuejs fa-5x col-2"></i>
+                        <i class="fas fa-terminal fa-5x col-2"></i>
+                        <i class="fas fa-database fa-5x col-2"></i>
                     </div>
                 </div>
             </div>
         </div>
+        <!--SECTION CENTRES INTERETS-->
         <div class="centre--interets">
-            <h2 class="centre--interets_title">Centre d'interets</h2>
-            <p>Je pratique le football depuis mes 5 ans.<br><br>Je suis un grand fan de jeux videos
-                (FPS,Sport,BF,Simulation).<br><br>L'Olympique de Marseille.<br><br>Le
-                tennis.<br><br>L'informatique.<br><br>J'aime voyager (Egypte, Suisse, Italie, Pays-Bas, Angleterre).</p>
+            <h2 class="centre--interets_title">Centres d'intêret</h2>
+
+            <ul>
+                <li>
+                    Je pratique le football depuis mes 5 ans.
+                </li>
+                <li>
+                    Je suis un grand fan de jeux videos
+                    (FPS,Sport,BF,Simulation).</li>
+                <li>
+                    L'Olympique de Marseille.
+                </li>
+                <li>
+                    Le tennis.
+                </li>
+                <li>
+                    L'informatique.
+                </li>
+                <li>
+                    J'aime voyager (Egypte, Suisse, Italie, Pays-Bas, Angleterre).
+                </li>
+            </ul>
         </div>
     </div>
     <h2 class="projects_title">Projets</h2>
     <div class="projects">
         <p>AutoSyteme :</p>
-        <a href="http://nalla-b.fr/projet_perso/" target="_blank"><img class="project__pic"
-                src="img/auto3.png"></a>
+        <a href="http://nalla-b.fr/projet_perso/" target="_blank"><img class="project__pic" src="img/auto3.png" alt="capture d'écran projet"/></a>
     </div>
     <div class="contactme__icon">
         <a href="https://www.linkedin.com/in/allan-bocquet-804180188/" target="_blank"><i

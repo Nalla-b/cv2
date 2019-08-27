@@ -1,12 +1,27 @@
-.contact_title,
-.formation_title,
-.centre--interets_title {
-  text-align: right;
-  margin-right: 35px;
+* {
+  box-sizing: border-box;
+}
+
+h2,
+h1 {
+  color: #1c1f3c;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Quicksand", "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 .experience > ul {
   margin-left: -5px;
+}
+
+.contact,.formation,.centre--interets>ul{
+  margin-right: 35px;
+  text-align: right;
+}
+
+.contact_title,.formation_title,.centre--interets_title{
+  text-align: right;
+  margin-right: 35px;
 }
 
 .competences_title,
@@ -40,22 +55,12 @@
   margin-right: 35px;
 }
 
-.contact > ul {
-  text-align: right;
-  margin-right: 35px;
-}
-
-.formation > ul {
-  text-align: right;
-  margin-right: 35px;
-}
-
 #icon_user,
 #icon_case,
 #icon_bulb {
-  margin-left: 46%;
-  margin-bottom: 10vh;
-  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0;
 }
 
 html {
@@ -66,13 +71,10 @@ html {
   font-size: 1.1em;
 }
 
-.centre--interets > p {
-  text-align: right;
-  margin-right: 35px;
-}
 
 li {
   list-style-type: none;
+  margin: 40px 0;
 }
 
 ul {
@@ -84,10 +86,6 @@ ul {
     margin: auto;
     }
 
-.compe_container {
-  margin-left: 35px;
-  margin-right: 20px;
-}
 
 a {
   text-decoration: none;
@@ -106,13 +104,6 @@ a:hover {
   margin-bottom: 50px;
 }
 
-h2,
-h1 {
-  color: #1c1f3c;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Quicksand", "Montserrat", Arial, Helvetica, sans-serif;
-}
 
 .desktop {
   display: none;
@@ -120,6 +111,11 @@ h1 {
 
 .competences_title {
   margin-left: 5px;
+}
+
+.competences{
+  margin: 0 35px;
+  margin-bottom: 10vh;
 }
 
 footer {
@@ -134,17 +130,19 @@ body {
   background-color: #fff8dc;
 }
 
-.from-right,
-.from-left {
-  opacity: 0;
-  transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+span {
+  font-weight: bold;
 }
-.from-right {
-  transform: translate(50px, -30px);
+
+.contactme{
+  margin: 0 0 ;
 }
-.from-left {
-  transform: translate(-50px, -30px);
+
+.formation_title{
+  margin-right: 0;
 }
+
+
 
 @media screen and (min-width: 500px) {
     .body__pic{
@@ -155,7 +153,6 @@ body {
   .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
 
@@ -172,58 +169,28 @@ body {
     margin-left: 40px;
   }
 
-  .profil {
-    width: 46%;
-  }
 
   .profil > p {
     text-align: right;
     margin-right: 0px;
   }
 
-  .contact,
-  .formation,
-  .experience,
-  .centre--interets,
-  .competences {
-    width: 50%;
-  }
-
-  .contact > ul {
+  .contact,.formation> ul {
     text-align: left;
   }
 
-  .formation > ul {
-    text-align: left;
-  }
-
-  #icon_user,
-  #icon_case,
-  #icon_bulb {
-    margin-left: 48%;
-  }
 
   .experience > ul {
     text-align: right;
     margin: 0 auto;
   }
-
-  .experience {
-    width: 46%;
-  }
-
   .competences_title {
     text-align: right;
     margin-right: 37px;
   }
 
   .compe_container {
-    width: 46%;
-  }
-
-  .centre--interets {
-    width: 45%;
-    margin-left: 2px;
+    width: 43%;
   }
 
   .centre--interets > p {
@@ -232,7 +199,7 @@ body {
 
   .centre--interets_title {
     text-align: left;
-    margin-left: 0px;
+    margin-left: 3vw;
   }
 
   .competences {
@@ -259,12 +226,37 @@ body {
   #icon_user,
   #icon_case,
   #icon_bulb {
-    margin-top: 0px;
+    margin: 10vh 0;
   }
 
-  #icon_user {
-    margin-top: 5vh;
+  .profil,.contact,.experience,.formation,.centre--interets,.competences{
+    width: 50%;
   }
+
+  .contact,.formation,.centre--interets{
+    padding-left: 5vw;
+    margin-bottom: -5vh;
+}
+
+.profil,.experience,.competences{
+  padding-right: 5vw;
+  margin-bottom: -5vh;
+}
+
+.centre--interets>ul{
+  text-align: left;
+  margin-left: -2vw;
+}
+
+.projects_title{
+  margin-top: 10vh;
+}
+
+.competences{
+  padding-right: 3vw;
+}
+
+
 }
 
 @media screen and (min-width: 800px) {
@@ -285,11 +277,28 @@ body {
     display: initial;
   }
 
-  .competences {
-    margin-left: 350px;
-  }
   html {
     border-right: 130px #1c1f3c solid;
     border-left: 130px #1c1f3c solid;
+  }
+
+  .competences_title{
+    margin: 23px -32px;
+  }
+
+  .centre--interets>ul{
+    margin-left: 1vw;
+  }
+
+  .compe_container{
+    width: 50%;
+  }
+
+  .centre--interets_title{
+    margin-left: 3vw;
+  }
+
+  .projects{
+    margin-bottom: 10vh;
   }
 }
